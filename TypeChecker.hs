@@ -1,4 +1,4 @@
-{-# LANGUAGE PackageImports, TypeSynonymInstances, FlexibleInstances, GADTs, TupleSections, GeneralizedNewtypeDeriving #-}
+{-# LANGUAGE GeneralizedNewtypeDeriving #-}
 
 module TypeChecker where
 
@@ -7,12 +7,10 @@ import Basics
 import Display
 import Control.Monad.Error
 import Data.Maybe
-import Control.Monad.Error (ErrorT, runErrorT)
 import Control.Monad.Writer
 import Control.Monad.Reader
 import Data.Functor.Identity
 import Data.Sequence hiding (replicate,zip,reverse)
-import Data.Foldable (toList)
 import Terms
 import Options
 

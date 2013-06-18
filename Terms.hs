@@ -1,4 +1,4 @@
-{-# LANGUAGE GADTs, KindSignatures, OverloadedStrings, TypeSynonymInstances, RankNTypes, PatternGuards #-}
+{-# LANGUAGE GADTs, KindSignatures #-}
 module Terms where
 
 import Prelude hiding (length,elem,foldl,all,concatMap,and,drop,concat)

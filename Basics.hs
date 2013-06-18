@@ -1,4 +1,4 @@
-{-# LANGUAGE OverloadedStrings, GeneralizedNewtypeDeriving #-}
+{-# LANGUAGE GeneralizedNewtypeDeriving #-}
 module Basics
        (module Data.Monoid,
         module Control.Applicative,
